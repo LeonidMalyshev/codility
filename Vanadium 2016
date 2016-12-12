@@ -1,0 +1,76 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+// https://codility.com/programmers/task/winter_lights/
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string inp = "02002";
+            var s = new Solution();
+            Console.WriteLine(s.solution(inp));
+            Console.WriteLine(s.Test(inp));
+            Console.ReadLine();
+        }
+    }
+  //********* Start of code to submit to codility
+    public class Solution
+    {
+        public int solution(string S)
+        {
+            var len = S.Length;
+            if (len == 0) return 0;
+            if (len == 1) return 1;
+            return solution(S.Substring(1)) + mefirst(S);
+        }
+
+        private int mefirst(string s)
+        {
+            int count = 0;
+            int len = s.Length;
+            for (int j = 0; j < len; j++)
+            {
+                var dic = new Dictionary<char,int>();
+                for (int i=0;i<=j;i++)
+                    if (dic.ContainsKey(s[i])) dic[s[i]]++;
+                    else dic.Add(s[i],1);
+                if (dic.Values.Count(x => x%2 == 1) == (j+1)%2)
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+//********* End of code to submit to codility
+        public int Test(string s)
+        {
+            int count = 0;
+            int len = s.Length;
+            for (int i=0;i<len;i++)
+                for (int j = i; j < len; j++)
+                {
+                    var ps = s.Substring(i, j - i + 1);
+                    if (isOk(ps)) count++;
+                }
+            return count;
+        }
+
+        private bool isOk(string s)
+        {
+            int len = s.Length;
+            var dic = new Dictionary<char,int>();
+            for (int i = 0; i < len; i++)
+                if (dic.ContainsKey(s[i])) dic[s[i]]++;
+                else dic.Add(s[i], 1);
+            var n = dic.Values.Count(x => x % 2 == 1);
+            if (len % 2 == 0 && n == 0) return true;
+            if (len % 2 == 1 && n == 1) return true;
+            return false;
+        }
+
+    }
+ }
