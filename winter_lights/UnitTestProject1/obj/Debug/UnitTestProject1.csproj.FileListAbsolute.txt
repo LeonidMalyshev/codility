@@ -1,0 +1,7 @@
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\UnitTestProject1\bin\Debug\winter_lights.exe
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\UnitTestProject1\bin\Debug\winter_lights.pdb

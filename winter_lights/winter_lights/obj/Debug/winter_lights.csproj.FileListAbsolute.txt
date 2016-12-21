@@ -1,0 +1,6 @@
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\winter_lights\bin\Debug\winter_lights.exe.config
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\winter_lights\bin\Debug\winter_lights.exe
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\winter_lights\bin\Debug\winter_lights.pdb
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\winter_lights\obj\Debug\winter_lights.exe
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\winter_lights\obj\Debug\winter_lights.pdb
+D:\Users\STREAMSTAR\Documents\Visual Studio 2013\Projects\temp\winter_lights\winter_lights\obj\Debug\winter_lights.csprojResolveAssemblyReference.cache
